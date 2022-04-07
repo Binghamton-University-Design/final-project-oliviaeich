@@ -8,8 +8,8 @@
 
 body {
 	margin: 0;
-	color: var(--body-color);
-	background: var(--background-color);
+	color: light green(--body-color);
+	background: light orange(--background-color);
 	}
 
 	#wrapper {
