@@ -8,11 +8,30 @@
 
 body {
 	margin: 0;
-	color: light green(--body-color);
-	background: light orange(--background-color);
-	}
+	background-image: url("../images/waterfall.jpg");
+	background-position: center;
+}
 
 	#wrapper {
 		margin:  0 auto;
 		max-width:  1200px;
 	}
+
+	.project {
+  display: flex;
+  align-items: center;
+  height: 100vh;
+}
+
+.project-inner {
+  position: relative;
+}
+
+.poem-title {
+	text-align: center;
+}
+
+h2 {
+	font-size: 3em;
+	font-style: italic;
+}
